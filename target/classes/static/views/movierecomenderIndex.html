@@ -1,0 +1,310 @@
+<html>
+<head>
+	<meta name="description" content="Login/Register page">
+	<meta name="keywords" content="movie,recommender,website">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/hover.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<title>Movie Recommender</title>
+	
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<ul class="list-inline top-data" >
+						<li class="list-item">
+							<i class="fas fa-envelope"></i><span>  Email:rnkhatri@gmail.com</span>
+						</li>
+						<li class="list-item">
+							<i class="fas fa-phone"></i><span>  Contact:9868620708</span>
+						</li>
+
+					</ul>
+				</div>
+				<div class="col-md-3 ">
+					<ul class="list-inline top-data">
+						<li><a href="#" target="_empty"><i class="fab fa-facebook"></i></a></li>
+						<li><a href="#" target="_empty"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#" target="_empty"><i class="fab fa-google-plus"></i></a></li> 
+						<li><a href="#" class="log-top" data-toggle="modal" data-target="#login-modal">Login</a></li> 
+						<li><a href="#" class="log-top" data-toggle="modal" data-target="#login-modal">Register</a></li> 
+					</ul>
+				</div>
+			</div>
+		</div>		
+	</header>
+
+	<!-- Start Navbar -->
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7">
+				<h1 id="site-name">Movie Recomendation System</h1>
+			</div>
+			<div class="col-md-5">
+				<form class="navbar-form navbar-right" style="margin-top: 14px;">
+	                <div class="form-group">
+	                    <input type="text" placeholder="Search" class="form-control">
+	                </div>
+	                <button type="submit" class="btn btn-info">Submit</button>
+            	</form>
+			</div>
+		</div>
+	</div>
+	
+	<nav class="nav navbar-nav navbar-custom navbar-default">
+		<div class="container">
+			<div class="row">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+
+					<div class="collapse navbar-collapse" id="navbar">
+						<ul class="nav navbar-nav">
+							<li class="nav-item hvr-box-shadow-inset"><a href="#">Most View</a></li>
+							<li class="nav-item hvr-box-shadow-inset"><a href="#">Nepali</a></li>
+							<li class="nav-item hvr-box-shadow-inset"><a href="#">Hindi</a></li>
+							<li class="nav-item hvr-box-shadow-inset"><a href="#">English</a></li>
+							<li class="nav-item hvr-box-shadow-inset"><a href="#">Chaines</a></li>
+							<li class="nav-item hvr-box-shadow-inset"><a href="#">Other</a></li>
+						</ul>
+					</div>
+			</div>
+		</div>		
+	</nav>
+
+	<!-- =========================================
+		End Navbar
+		============================================ -->
+
+<!-- =========================================
+		start main containt 
+		============================================ -->
+	<div class="clear"></div>
+		<div class="container main-film-body" >
+			<div class="row">
+				<!-- main section -->
+				<div class="col-md-9">
+
+					<div class="row" id="film-section">
+						<div class="col-md-4">
+							<div class="panel">
+								<img src="img/movie/king.jpg " style="height: 200px; width: 100%" alt="Image" class="img-responsive">
+								<div class="panel-body">
+									<h1>King</h1>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, atque.</p>
+									<p>Language: Nepali</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="panel">
+								<img src="img/movie/manis.jpg " style="height: 200px; width: 100%" alt="Image" class="img-responsive">
+								<div class="panel-body">
+									<h1>Manish</h1>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, atque.</p>
+									<p>Language: Nepali</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="panel">
+								<img src="img/movie/race.jpg " style="height: 200px; width: 100%" alt="Image" class="img-responsive">
+								<div class="panel-body">
+									<h1>Race</h1>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, atque.</p>
+									<p>Language: Hindi</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="row" id="film-section">
+						<div class="col-md-4">
+							<div class="panel">
+								<img src="img/movie/surya.jpg " style="height: 200px; width: 100%" alt="Image" class="img-responsive">
+								<div class="panel-body">
+									<h1>Surya</h1>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, atque.</p>
+									<p>Language: Hindi</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="panel">
+								<img src="img/movie/daeri.jpg " style="height: 200px; width: 100%" alt="Image" class="img-responsive">
+								<div class="panel-body">
+									<h1>Dayeri</h1>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, atque.</p>
+									<p>Language: Nepali</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="panel">
+								<img src="img/movie/bravo.jpg " style="height: 200px; width: 100%" alt="Image" class="img-responsive">
+								<div class="panel-body">
+									<h1>Bravo</h1>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, atque.</p>
+									<p>Language: Hindi</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row" id="film-section">
+						<div class="col-md-4">
+							<div class="panel">
+								<img src="img/movie/surya.jpg " style="height: 200px; width: 100%" alt="Image" class="img-responsive">
+								<div class="panel-body">
+									<h1>Surya</h1>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, atque.</p>
+									<p>Language: Hindi</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="panel">
+								<img src="img/movie/daeri.jpg " style="height: 200px; width: 100%" alt="Image" class="img-responsive">
+								<div class="panel-body">
+									<h1>Dayeri</h1>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, atque.</p>
+									<p>Language: Nepali</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="panel">
+								<img src="img/movie/bravo.jpg " style="height: 200px; width: 100%" alt="Image" class="img-responsive">
+								<div class="panel-body">
+									<h1>Bravo</h1>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, atque.</p>
+									<p>Language: Hindi</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+				</div>
+
+				<!-- ============================
+						sidebar
+				=========================== -->
+					<div class="col-md-3 sidebar sidebar-fixed-right"">
+						<div class="sidebar-body">
+							<h2>CATEGORY</h2>
+							<ul class="nav">
+								<li class="nav-item"><i class="fas fa-hand-point-right"></i> Action</li>
+								<li class="nav-item"><i class="fas fa-hand-point-right"></i> Love</li>
+								<li class="nav-item"><i class="fas fa-hand-point-right"></i> Commedy</li>
+								<li class="nav-item"><i class="fas fa-hand-point-right"></i> Funny</li>
+								<li class="nav-item"><i class="fas fa-hand-point-right"></i> Story</li>
+							</ul>
+						</div>
+						<div class="sidebar-body">
+							<h2>Top Most Film</h2>
+							<ul class="nav">
+								<li class="nav-item"><i class="fas fa-hand-point-right"></i> Action</li>
+								<li class="nav-item"><i class="fas fa-hand-point-right"></i> Love</li>
+								<li class="nav-item"><i class="fas fa-hand-point-right"></i> Commedy</li>
+								<li class="nav-item"><i class="fas fa-hand-point-right"></i> Funny</li>
+								<li class="nav-item"><i class="fas fa-hand-point-right"></i> Story</li>
+							</ul>
+						</div>
+						<div class="sidebar-body">
+							<h2>High Rank</h2>
+							<ul class="nav">
+								<li class="nav-item"><i class="fas fa-hand-point-right"></i> Action</li>
+								<li class="nav-item"><i class="fas fa-hand-point-right"></i> Love</li>
+								<li class="nav-item"><i class="fas fa-hand-point-right"></i> Commedy</li>
+								<li class="nav-item"><i class="fas fa-hand-point-right"></i> Funny</li>
+								<li class="nav-item"><i class="fas fa-hand-point-right"></i> Story</li>
+							</ul>
+						</div>
+
+					</div>
+				<!-- ============================
+						sidebar
+				=========================== -->
+
+			</div>
+		</div>
+		
+
+
+<!-- ==========================================
+		end Content
+		=================================================== -->
+
+
+
+
+<!-- ==========================================
+		footer section
+		=================================================== -->
+		<footer id="slitedFooter" class="page-footer font-small blue pt-4">
+			<div class="footer-section">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<h1>CATEGORIES</h1>
+							<ul class="nav" style="font-size: 20px;">
+								<li class="nav-item"><i class="fas fa-hand-point-right"></i> Action</li>
+								<li class="nav-item"><i class="fas fa-hand-point-right"></i> Love</li>
+								<li class="nav-item"><i class="fas fa-hand-point-right"></i> Commedy</li>
+								<li class="nav-item"><i class="fas fa-hand-point-right"></i> Funny</li>
+								<li class="nav-item"><i class="fas fa-hand-point-right"></i> Story</li>
+							</ul>
+						</div>
+						<div class="col-md-4">
+							<h1>CONTACT</h1>
+							<form action="" class="form-horizontal " style="padding: 10px;">
+								<div class="form-group">
+									<input type="text" placeholder="Email" class="form-control">
+								</div>
+								<div class="form-group">
+									<input type="text" placeholder="Subject" class="form-control">
+								</div>
+								<div class="form-group">
+									<textarea name="message" id="" class="form-control" placeholder="write the message here...."></textarea>
+								</div>
+								<div class="form-group">
+									<input type="submit" placeholder="Subject" class="btn btn-warning">
+								</div>
+							</form>
+						</div>
+						<div class="col-md-5">
+							<h1>LOCATION</h1>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112676.35775217516!2d82.41875431986291!3d28.050866286595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39979470ac6a79d7%3A0xa2314738ce1f7bc4!2sGhorahi+22400!5e0!3m2!1sen!2snp!4v1517844974301" width="450" height="240" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright text-center py-3">
+				<div class="container">
+					<p class="pull-left"> Copyright &copy 2018</p>
+					<a href="#" class="link pull-right" style="color: white;">http://rnkhatri.com</a>
+				</div>
+			</div>
+		</footer>
+
+
+		<script src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+	<!-- ===============================
+		Angular 
+		=============================== -->
+
+	</body>
+	</html>
+

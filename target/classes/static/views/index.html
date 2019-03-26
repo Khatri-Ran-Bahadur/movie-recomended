@@ -1,0 +1,44 @@
+<html ng-app="myApp">
+<head>
+	<meta name="description" content="Login/Register page">
+	<meta name="keywords" content="movie,recommender,website">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/hover.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<title>Movie Recommender</title>
+	<base href="/">
+</head>
+<body>
+
+	<div ng-view></div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/angular.min.js"></script>
+	<script src="js/angular-route.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	<!-- ===============================
+			Angular 
+	=============================== -->
+	<script src="js/app.js"></script>
+
+<!-- ===================================================================
+	google api
+ -->
+ 	<script type="text/javascript">
+		function activatePlaces(){
+			var input=document.getElementById('address');
+			var autocomplete= new google.maps.places.Autocomplete(input);
+		}
+	</script>
+	<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTBWWIUo3xaiL5G9qCPBYyTD9PetjAmVg&libraries=places&callback=activatePlaces"></script> -->
+	
+</body>
+</html>
+
